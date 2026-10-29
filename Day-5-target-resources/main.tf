@@ -1,5 +1,9 @@
+provider "aws" {
+    region = "us-east-1"
+}
+
 resource "aws_instance" "name" {
-    ami = "ami-0d27e0fb3bac4d7245"
+    ami = "ami-041607313c6a2a618"
     instance_type = "t2.micro"
     availability_zone = "us-east-1b"
     tags = {
@@ -8,7 +12,7 @@ resource "aws_instance" "name" {
 }
 
 resource "aws_s3_bucket" "name" {
-    bucket = "wertyudfghj"
+    bucket = "wertyudfghjtyuighjklbnm"
   
 }
 
